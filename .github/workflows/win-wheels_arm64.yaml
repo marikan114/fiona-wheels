@@ -22,7 +22,7 @@ jobs:
         include:
           - os: "windows-2022"
             arch: ARM64
-            msvc_arch: arm64
+            msvc_arch: Arm64
 
     steps:
       - name: Checkout
@@ -105,7 +105,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["windows-latest"]
+        os: ["windows-latest", "windows-2022"]
         python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
     steps:
