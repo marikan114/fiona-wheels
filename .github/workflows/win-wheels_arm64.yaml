@@ -5,8 +5,8 @@ name: Windows wheels
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  REF: 1.9.6
-  # REF: 1.10b1
+  # REF: 1.9.6
+  REF: 1.10b1
   # REF: rel-1.10b1
 
 # cancel running jobs on new commit to PR
